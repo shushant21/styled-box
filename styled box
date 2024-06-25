@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Box</title>
+    <style>
+        body {
+            margin: 0; /* Remove default body margin */
+            font-family: Arial, sans-serif;
+        }
+        .styled-box {
+            background-color: #f0e68c; /* Light yellow */
+            border: 10px solid #c0392b; /* Dark orange border */
+            margin: 200px auto; /* Center the box with 200px margins */
+            padding: 100px; /* Create space inside the box */
+            width: 400px; /* Set a width for the box */
+            text-align: center; /* Center the content inside the box */
+            cursor: pointer; /* Change cursor style to indicate interactivity */
+        }
+        .styled-box:hover {
+            background-color: #e9af1e; /* Change background on hover (light orange) */
+        }
+    </style>
+</head>
+<body>
+    <div class="styled-box">
+        This is a styled box! Hover over me to see a cool effect.
+    </div>
+
+</body>
+</html>
